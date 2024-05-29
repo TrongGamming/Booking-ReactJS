@@ -75,7 +75,7 @@
   
   .inner-search__item input {
       border: none;
-      width: 75%;
+      width: 100%;
   }
   
   .inner-search__item input:focus{
