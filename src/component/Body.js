@@ -49,14 +49,14 @@ function Body(){
                                 <i className="fa-regular fa-calendar"></i>
                                 <span>Check-in</span>
                             </label>
-                            <input type="date" id="check-id" value={native} onChange={onNativeChange} />
+                            <input type="date" id="check-id"/>
                         </div>
                         <div className="inner-search__item">
                             <label for="check-out">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span>Check-out</span>
                             </label>
-                            <input type="date" id="check-out" value={native} onChange={onNativeChange} />
+                            <input type="date" id="check-out"/>
                         </div>
                         <div className="inner-search__item">
                             <label for="person">
