@@ -60,6 +60,8 @@
   
   .inner-search__item {
       padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
   }
   
   .inner-search__item label {
