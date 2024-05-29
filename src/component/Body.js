@@ -3,9 +3,15 @@ import background1 from "../resource/img/background/backrground1.png"
 import background2 from "../resource/img/background/backrground2.png"
 import background3 from "../resource/img/background/background3.png"
 import background4 from "../resource/img/background/background4.png"
+import { useState } from "react"
 
 
 function Body(){
+    const [native, setNative] = useState("");
+    const onNativeChange = e => {
+        console.log("onNativeChange: ", e.target.value);
+        setNative(e.target.value);
+    };
     return (
         <>
             <div className="body">
@@ -43,21 +49,21 @@ function Body(){
                                 <i className="fa-regular fa-calendar"></i>
                                 <span>Check-in</span>
                             </label>
-                            <input type="text" id="location" name="location"/>
+                            <input type="date" id="check-id" value={native} onChange={onNativeChange} />
                         </div>
                         <div className="inner-search__item">
-                            <label for="location">
+                            <label for="check-out">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span>Check-out</span>
                             </label>
-                            <input type="text" id="location" name="location"/>
+                            <input type="date" id="check-out" value={native} onChange={onNativeChange} />
                         </div>
                         <div className="inner-search__item">
-                            <label for="location">
+                            <label for="person">
                                 <i className="fa-solid fa-user"></i>
                                 <span>Person</span>
                             </label>
-                            <input type="text" id="location" name="location"/>
+                            <input type="text" id="person" name="location"/>
                         </div>
                         <div className="inner-search__item">
                             <span>Search...</span>

@@ -56,7 +56,7 @@ function Footer(){
                                     Subscribe Now !
                                 </div>
                                 <div className="subscribe__input">
-                                    <input type="text" placeholder="Hotel@example.com"/>
+                                    <input type="email" placeholder="Hotel@example.com"/>
                                     <div className="subscribe__search">
                                         <i className="fa-solid fa-paper-plane"></i>
                                     </div>
