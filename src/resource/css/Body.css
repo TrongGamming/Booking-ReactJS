@@ -73,7 +73,7 @@
   
   .inner-search__item input {
       border: none;
-      width: 80%;
+      width: 60%;
   }
   
   .inner-search__item input:focus{
