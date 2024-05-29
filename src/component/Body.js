@@ -17,7 +17,7 @@ function Body(){
                                     <div className="inner-title text-lg">Make yourself at hom in <span>Our</span> hotel</div>
                                     <div className="inner-desc text-sm">Simple - unique - friendly</div>
                                     <div className="inner-btn">
-                                        <div className="btn-search">Find a hotel</div>
+                                        <div className="btn-search btn">Find a hotel</div>
                                         <div className="btn-watch">
                                             <i className="fa-solid fa-play"></i>
                                             <span>Watch video</span>
