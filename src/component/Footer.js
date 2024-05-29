@@ -38,7 +38,7 @@ function Footer(){
                                 </ul>
                             </div>
                         </div>
-                        <div classNameName="col-xl-2">
+                        <div className="col-xl-2">
                             <div className="service">
                                 <div className="service__head">Services</div>
                                 <ul>
@@ -56,7 +56,7 @@ function Footer(){
                                     Subscribe Now !
                                 </div>
                                 <div className="subscribe__input">
-                                    <input type="email" placeholder="Hotel@example.com"/>
+                                    <input type="email" placeholder="Hotel@example.com" id="email" name="email" autoComplete="off" />
                                     <div className="subscribe__search">
                                         <i className="fa-solid fa-paper-plane"></i>
                                     </div>

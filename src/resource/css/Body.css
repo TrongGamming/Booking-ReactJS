@@ -73,12 +73,16 @@
       margin-right: 0.8rem;
   }
   
-  .inner-search__item input {
-      border: none;
-      width: 100%;
+  .inner-search__item input,
+  .inner-search__item select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    width: 100%;
   }
   
-  .inner-search__item input:focus{
+  .inner-search__item input:focus
+  .inner-search__item select:focus-visible {
       outline: none;
   }
   
