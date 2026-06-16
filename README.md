@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+# Giao Diện Trang Đặt Phòng Khách Sạn Hiện Đại (Booking-ReactJS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
 
-## Available Scripts
+Booking-ReactJS là một dự án giao diện Landing Page chuyên nghiệp phục vụ việc đặt phòng khách sạn. Dự án chú trọng vào tính thẩm mỹ cao, micro-interactions mượt mà và giao diện thích ứng hoàn hảo (Responsive Design) trên mọi loại thiết bị di động cũng như máy tính để bàn.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<details>
+<summary>🇬🇧 Click to view English Version</summary>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Modern Hotel Booking Landing Page (Booking-ReactJS)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Booking-ReactJS is a highly interactive, responsive Landing Page interface for hotel room booking. The project features clean visuals, subtle micro-animations, and responsive layout optimizations for a seamless user experience across all screen sizes.
 
-### `npm test`
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Các Tính Năng Nổi Bật (Key Features)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*   **Bộ lọc Tìm kiếm Thông minh (Smart Filter)**: Khách hàng có thể dễ dàng chọn địa điểm (TP. Hồ Chí Minh, Đà Nẵng, Vũng Tàu, Hà Nội, Nha Trang), thiết lập ngày check-in/out, và thay đổi số lượng khách (người lớn/trẻ em) bằng bộ đếm phản hồi trực tiếp.
+*   **Giao diện Responsive**: Layout cấu trúc linh hoạt sử dụng grid system giúp hiển thị đẹp mắt trên màn hình Desktop rộng lẫn điện thoại nhỏ gọn.
+*   **Kiến trúc Component Sạch sẽ**: Phân tách mã nguồn thành các block độc lập: `Header`, `Body` (chứa các Section phòng và dịch vụ), và `Footer` giúp dễ bảo trì và tái sử dụng.
+*   **Aesthetics & Micro-interactions**: Sử dụng CSS Modules, hiệu ứng hover, transition mượt mà, tạo cảm giác cao cấp và hiện đại cho website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>🇬🇧 Click to view English Version</summary>
 
-### `npm run eject`
+## 🚀 Key Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*   **Smart Booking Filter**: Responsive form to choose locations (HCM City, Da Nang, Vung Tau, Hanoi, Nha Trang), check-in/out dates, and guest count (adults/children) via interactive adjusters.
+*   **Responsive Web Design (RWD)**: Structured grid layout adapts perfectly to mobile, tablet, and desktop viewports.
+*   **Component-Driven Architecture**: Fully modularized layout (`Header`, `Body`, `Footer`) ensuring maintainability and scalability.
+*   **Polished Aesthetics**: Enriched with CSS effects, hover transitions, and visual micro-animations to enhance user engagement.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Cấu Trúc Thư Mục (Folder Structure)
 
-## Learn More
+```text
+src/
+├── component/          # Các Component của UI (App, Header, Body, Footer...)
+├── css-module/         # Chứa các CSS module tối ưu hóa style cho component
+└── resource/           # Tài nguyên tĩnh của ứng dụng
+    ├── css/            # Các file CSS toàn cục và cục bộ
+    └── img/            # Hình ảnh background, phòng, dịch vụ
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<details>
+<summary>🇬🇧 Click to view English Version</summary>
 
-### Code Splitting
+## 📁 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```text
+src/
+├── component/          # React Components (App, Header, Body, Footer...)
+├── css-module/         # CSS Modules for modular component styling
+└── resource/           # Application static assets
+    ├── css/            # Global/local stylesheet files
+    └── img/            # Images (background, rooms, icons)
+```
 
-### Analyzing the Bundle Size
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛠️ Công Nghệ Sử Dụng (Tech Stack)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*   **Frontend Library**: ReactJS 18
+*   **Styling**: Vanilla CSS, FontAwesome 6 (icons)
+*   **Package Manager**: Yarn (1.22+)
+*   **Build Tool**: Create React App (react-scripts)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<details>
+<summary>🇬🇧 Click to view English Version</summary>
 
-### Deployment
+## 🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+*   **Frontend Library**: ReactJS 18
+*   **Styling**: Vanilla CSS, FontAwesome 6 (icons)
+*   **Package Manager**: Yarn (1.22+)
+*   **Build Tool**: Create React App (react-scripts)
 
-### `npm run build` fails to minify
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 💻 Hướng Dẫn Cài Đặt (Installation)
+
+1.  **Cài đặt Yarn**:
+    Đảm bảo bạn đã cài đặt Node.js và Yarn. Nếu chưa cài Yarn toàn cục, chạy:
+    ```bash
+    npm install --global yarn
+    ```
+2.  **Cài đặt dependencies**:
+    Di chuyển vào thư mục dự án và chạy:
+    ```bash
+    yarn install
+    ```
+3.  **Khởi chạy môi trường local**:
+    ```bash
+    yarn start
+    ```
+    Ứng dụng sẽ chạy tại địa chỉ: `http://localhost:3000`.
+4.  **Tạo bản build sản xuất**:
+    ```bash
+    yarn build
+    ```
+
+---
+
+<details>
+<summary>🇬🇧 Click to view English Version</summary>
+
+## 💻 Installation
+
+1.  **Prerequisites**:
+    Ensure Node.js and Yarn are installed. If you need to install Yarn globally:
+    ```bash
+    npm install --global yarn
+    ```
+2.  **Install Dependencies**:
+    Navigate to the project folder and run:
+    ```bash
+    yarn install
+    ```
+3.  **Start Local Server**:
+    ```bash
+    yarn start
+    ```
+    Open your browser and navigate to: `http://localhost:3000`.
+4.  **Production Build**:
+    ```bash
+    yarn build
+    ```
+
+</details>
